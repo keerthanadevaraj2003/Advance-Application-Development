@@ -1,0 +1,39 @@
+.land {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    width: 100%;
+    position: fixed; /* Change from relative to fixed */
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(https://t3.ftcdn.net/jpg/06/06/36/94/360_F_606369446_4qd21UpxORhBl1v4x6OuFSTNnHn9MHNZ.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: 0;
+  }
+
+.image-page {
+    height: 100vh;
+    margin-top: 100px;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin: 20px auto; /* Center horizontally */
+    display: block; /* Ensure each container is displayed as a block */
+  }
+  
+  .image-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .image-container p {
+    font-size: 18px;
+    color: goldenrod; /* Dark grey color */
+  }
+  

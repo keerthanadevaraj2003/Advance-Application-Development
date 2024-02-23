@@ -1,0 +1,23 @@
+.themes-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color:goldenrod; 
+  }
+  
+  .theme {
+    margin-bottom: 40px;
+  }
+  
+  .theme h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .theme img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
