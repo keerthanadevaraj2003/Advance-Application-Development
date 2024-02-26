@@ -1,0 +1,40 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Aligns items at each end of the container */
+  align-items: center; /* Centers items vertically */
+  max-width: 700px; /* Adjust as needed */
+  margin: 0 auto; /* Centers content horizontally */
+}
+
+.para {
+  text-align: center; /* Aligns text in the center */
+}
+
+.social-icons {
+  display: flex; /* Ensures the social icons are displayed in a row */
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.social-icons a + a {
+  margin-left: 20px; /* Adjust spacing between icons */
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}

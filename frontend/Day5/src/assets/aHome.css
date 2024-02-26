@@ -1,0 +1,30 @@
+.sidebar1 {
+    background-color:rgba(0, 0, 0, 0.461);     
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    border: 2px solid rgba(255, 255, 255, 0.685);
+    top:0px;
+    left:0;
+    padding-top: 60px;
+    overflow-y: auto;
+    
+}
+.logo1
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.logo1 img
+{
+    width: 60%;
+    max-width: 150px;
+    margin-left: -50px;
+}
+.unl
+{
+    margin-top: 60px;
+}

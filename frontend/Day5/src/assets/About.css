@@ -1,0 +1,27 @@
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.about-page h1,
+.about-page h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:blueviolet; 
+}
+.about-page p,
+.about-page ul,
+.about-page li {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #fff; 
+}
+.about-page p:last-child,
+.about-page ul:last-child,
+.about-page li:last-child {
+  margin-bottom: 0;
+}
