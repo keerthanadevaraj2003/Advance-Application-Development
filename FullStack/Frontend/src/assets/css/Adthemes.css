@@ -1,0 +1,56 @@
+
+.theme-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .theme-container form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .theme-container form input[type="text"],
+  .theme-container form input[type="url"],
+  .theme-container form input[type="number"],
+  .theme-container form textarea {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .theme-container form textarea {
+    resize: vertical;
+  }
+  
+  .theme-container form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .theme-container form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
